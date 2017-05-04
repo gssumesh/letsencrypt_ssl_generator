@@ -1,0 +1,20 @@
+[
+  {
+    "account": "242423424423",
+    "description": "My AWS Account",
+    "domains": ["testing.io", "dev.testing.io", "prod.testing.io"],
+    "aws_certificate_name": "testing-io",
+    "destination_type": "aws_iam",
+    "force_renew": "false",
+    "s3": "letsencrypt-certs-testing"
+  },
+  {
+    "account": "242423424423",
+    "description": "My AWS Account",
+    "domains": ["awesome.io", "dev.awesome.io", "prod.awesome.io"],
+    "aws_certificate_name": "awesome-io",
+    "destination_type": "aws_iam",
+    "force_renew": "false",
+    "s3": "letsencrypt-certs-awesome"
+  }
+]
