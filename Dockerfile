@@ -15,7 +15,7 @@ ENV AWS_SECRET_ACCESS_KEY enter_secret_key
 ENV AWS_SESSION_TOKEN enter_session_token
 ENV DOMAIN_NAME enter.your.domain.name
 
-RUN git clone --depth 1 https://github.com/Neilpang/acme.sh.git ${TEMP_DIR} \
+RUN git clone --depth 2 https://github.com/Neilpang/acme.sh.git ${TEMP_DIR} \
     &&  mkdir -p ${CERT_DIR} ${ACCOUNT_DIR} \
     && cd /tmp/acme.sh \
     && ./acme.sh --install \
